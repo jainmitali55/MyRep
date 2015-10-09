@@ -1,0 +1,118 @@
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="Yahoo" duration-ms="356" started-at="2015-10-09T13:02:30Z" finished-at="2015-10-09T13:02:30Z">
+    <groups>
+    </groups>
+    <test name="Yahoo News Test" duration-ms="6" started-at="2015-10-09T13:02:30Z" finished-at="2015-10-09T13:02:30Z">
+      <class name="test.YahooNewsTest">
+        <test-method status="PASS" signature="beforenews()" name="beforenews" is-config="true" duration-ms="0" started-at="2015-10-09T13:02:30Z" finished-at="2015-10-09T13:02:30Z">
+        </test-method>
+        <test-method status="PASS" signature="newsTest()" name="newsTest" duration-ms="5" started-at="2015-10-09T13:02:30Z" finished-at="2015-10-09T13:02:30Z">
+        </test-method>
+      </class>
+    </test>
+    <test name="Yahoo Mail Test" duration-ms="6" started-at="2015-10-09T13:02:30Z" finished-at="2015-10-09T13:02:30Z">
+      <class name="test.YahooTest">
+        <test-method status="PASS" signature="beforeTest()" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-10-09T13:02:30Z" finished-at="2015-10-09T13:02:30Z">
+        </test-method>
+        <test-method status="PASS" signature="testReceivingEmail()" name="testReceivingEmail" duration-ms="0" started-at="2015-10-09T13:02:30Z" finished-at="2015-10-09T13:02:30Z">
+        </test-method>
+        <test-method status="PASS" signature="closeBrowser()" name="closeBrowser" is-config="true" duration-ms="0" started-at="2015-10-09T13:02:30Z" finished-at="2015-10-09T13:02:30Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeMethod()" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-10-09T13:02:30Z" finished-at="2015-10-09T13:02:30Z">
+        </test-method>
+        <test-method status="PASS" signature="closeBrowser()" name="closeBrowser" is-config="true" duration-ms="0" started-at="2015-10-09T13:02:30Z" finished-at="2015-10-09T13:02:30Z">
+        </test-method>
+        <test-method status="PASS" signature="testSendingEmail()" name="testSendingEmail" duration-ms="0" started-at="2015-10-09T13:02:30Z" finished-at="2015-10-09T13:02:30Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeMethod()" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-10-09T13:02:30Z" finished-at="2015-10-09T13:02:30Z">
+        </test-method>
+        <test-method status="PASS" signature="closeconnection()" name="closeconnection" is-config="true" duration-ms="1" started-at="2015-10-09T13:02:30Z" finished-at="2015-10-09T13:02:30Z">
+        </test-method>
+      </class>
+    </test>
+    <test name="Yahoo Register Test" duration-ms="8" started-at="2015-10-09T13:02:30Z" finished-at="2015-10-09T13:02:30Z">
+      <class name="test.YahooTest">
+        <test-method status="PASS" signature="initializeselenium()" name="initializeselenium" is-config="true" duration-ms="8" started-at="2015-10-09T13:02:30Z" finished-at="2015-10-09T13:02:30Z">
+        </test-method>
+        <test-method status="PASS" signature="closeSelenium()" name="closeSelenium" is-config="true" duration-ms="1" started-at="2015-10-09T13:02:30Z" finished-at="2015-10-09T13:02:30Z">
+        </test-method>
+      </class>
+      <class name="test.YahooRegisterTest">
+        <test-method status="PASS" signature="registrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)" name="registrationTest" duration-ms="1" started-at="2015-10-09T13:02:30Z" finished-at="2015-10-09T13:02:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[email1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[city1]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="registrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)" name="registrationTest" duration-ms="1" started-at="2015-10-09T13:02:30Z" finished-at="2015-10-09T13:02:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[email2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[city2]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="registrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)" name="registrationTest" duration-ms="1" started-at="2015-10-09T13:02:30Z" finished-at="2015-10-09T13:02:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[email3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[city3]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
